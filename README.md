@@ -1,17 +1,21 @@
 # ESPO Study
 
-An offline-first study PWA for the EPSO AD5 EU Knowledge test. The app contains **232 multiple-choice questions** extracted from the supplied **The Story of the Union — EU Knowledge for the EPSO AD5 Competition** guide — specifically the guide's own *Check Yourself* quizzes, with the guide's official answer keys and reasoning.
+An offline-first study PWA for the EPSO AD5 EU Knowledge test. The app contains **393 multiple-choice questions** — the **232** original questions extracted from the supplied **The Story of the Union — EU Knowledge for the EPSO AD5 Competition** guide (the guide's own *Check Yourself* quizzes with its official answer keys), plus **161 new medium/hard questions** (7 per chapter) written from the same guide and made deliberately more technical: treaty articles, voting thresholds, signed-vs-in-force traps, procedure sequences and institutional confusion sets.
+
+Every question is tagged with a difficulty — **easy**, **medium** or **hard** — so you can drill exactly the level you need.
 
 ## Features
 
-- **232 source-based MCQs** covering all 23 chapters (10 per chapter, 12 in Chapter 22)
+- **393 source-based MCQs** covering all 23 chapters (17 per chapter, 19 in Chapter 22)
+- **Difficulty levels** — easy / medium / hard on every question, with filter chips and dedicated **Medium drill** and **Hard drill** sessions; exam simulation draws mostly medium and hard
+- **Current affairs verified October 2026** — the newest EU laws, checked against official sources: the 2040 Climate Law target (−90%), the CBAM definitive regime, ETS2's delay to 2028, the AI Act Digital Omnibus, the deforestation regulation dates and the Nature Restoration Law
 - **Chapter navigator** grouped into the guide's eight parts
 - **Quick 5** short sessions
 - **Exam simulation** — 30 questions with a 40-minute countdown
 - **Weak areas** and **mistake review**, driven by real recorded answers
 - **Exit session** button with confirmation at any point
 - **AI tutor bubble** for contextual help on the current question
-- **Flashcards**, streaks, accuracy and progress tracking
+- Streaks, accuracy and progress tracking
 - **Installable PWA** that works offline once loaded
 - Stats start at zero — nothing is faked
 
@@ -51,7 +55,7 @@ GitHub Pages can take a few minutes to publish. If an old version is displayed a
 
 ## Groq AI
 
-Open **Settings** in the app, enter a Groq key, and save it locally. AI is optional: normal questions, flashcards and progress work without it. AI requests are made directly from the browser to Groq and require an internet connection. The app currently uses Groq model `qwen/qwen3.8-27b`.
+Open **Settings** in the app, enter a Groq key, and save it locally. AI is optional: normal questions and progress work without it. AI requests are made directly from the browser to Groq and require an internet connection. The app currently uses Groq model `qwen/qwen3.8-27b`.
 
 ## Content note
 

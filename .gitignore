@@ -1,0 +1,6 @@
+# Source material — never upload the guide PDF
+*.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db
