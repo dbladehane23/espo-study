@@ -1,0 +1,9 @@
+{
+  "name": "ESPO Study",
+  "short_name": "ESPO Study",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#101827",
+  "description": "A focused ESPO exam study companion"
+}

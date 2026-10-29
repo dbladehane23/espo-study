@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101827" />
+    <meta name="description" content="A focused ESPO exam study companion" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ESPO Study</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">E</span><span>ESPO <small>STUDY</small></span></div>
+        <nav class="nav-list" aria-label="Main navigation">
+          <button class="nav-item active" data-view="dashboard"><span>⌂</span> Dashboard</button>
+          <button class="nav-item" data-view="practice"><span>✓</span> Practice</button>
+          <button class="nav-item" data-view="flashcards"><span>◇</span> Flashcards</button>
+          <button class="nav-item" data-view="progress"><span>↗</span> Progress</button>
+          <button class="nav-item" data-view="settings"><span>⚙</span> Settings</button>
+        </nav>
+        <div class="sidebar-footer"><span class="pulse"></span> Offline-ready<br /><small>Your progress stays on this device</small></div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar"><div><span class="eyebrow">THURSDAY, 29 OCTOBER</span><h1 id="page-title">Good evening, study partner</h1></div><button class="avatar" aria-label="Open settings">S</button></header>
+        <div id="app"></div>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+    <script src="data.js?v=12"></script>
+    <script src="app.js?v=12"></script>
+  </body>
+</html>
