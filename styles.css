@@ -35,3 +35,21 @@
   .ai-fab{right:14px;bottom:calc(87px + env(safe-area-inset-bottom,0px));-webkit-tap-highlight-color:transparent}
   .ai-chat{left:0;right:0;bottom:calc(72px + env(safe-area-inset-bottom,0px));width:100%;border-radius:15px 15px 0 0;height:auto;max-height:min(470px,72vh);max-height:min(470px,72dvh)}
 }
+
+/* ===== Chapter completion ticks + AI generation (v15) ===== */
+.chapter-item{display:flex;gap:7px;align-items:stretch}
+.chapter-item .chapter-button{flex:1;min-width:0}
+.chapter-button.done{background:#f0faf6;border-color:#bfe9db}
+.chapter-button.done:hover{border-color:var(--green);background:#eaf8f3}
+.chapter-button.done .chapter-number{background:var(--green);color:#fff}
+.chapter-button.done>strong{color:var(--green);font-size:15px}
+.part-done{float:right;background:var(--mint);color:var(--green);border-radius:12px;padding:2px 9px;font:700 10px 'DM Sans';margin-top:-2px}
+.ai-gen{border:1px solid var(--line);background:#fff;color:var(--blue);border-radius:9px;padding:0 13px;font-size:15px;cursor:pointer;flex-shrink:0;-webkit-tap-highlight-color:transparent}
+.ai-gen:hover{border-color:#b9c9f5;background:var(--lav)}
+.ai-badge{display:inline-block;background:var(--lav);color:#6b5ce7;border-radius:6px;padding:3px 8px;font:700 10px 'DM Sans';letter-spacing:1px;vertical-align:middle;margin-left:8px}
+.gen-modal{max-width:420px}
+.gen-field{margin:14px 0 0}
+.gen-field label{display:block;font:700 11px 'DM Sans';letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-bottom:7px}
+.gen-options{display:flex;gap:8px;flex-wrap:wrap}
+.gen-actions{display:flex;gap:10px;margin-top:18px}
+button.secondary[disabled]{opacity:.45;cursor:not-allowed}

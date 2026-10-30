@@ -1,5 +1,5 @@
-const CACHE = 'espo-study-v14';
-const ASSETS = ['./', './index.html', './styles.css', './app.js', './data.js', './manifest.json'];
+const CACHE = 'espo-study-v15';
+const ASSETS = ['./', './index.html', './styles.css', './app.js', './data.js', './sources.js', './manifest.json'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();

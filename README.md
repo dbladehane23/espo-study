@@ -10,6 +10,8 @@ Every question is tagged with a difficulty — **easy**, **medium** or **hard** 
 - **Difficulty levels** — easy / medium / hard on every question, with filter chips and dedicated **Medium drill** and **Hard drill** sessions; exam simulation draws mostly medium and hard
 - **Current affairs verified October 2026** — the newest EU laws, checked against official sources: the 2040 Climate Law target (−90%), the CBAM definitive regime, ETS2's delay to 2028, the AI Act Digital Omnibus, the deforestation regulation dates and the Nature Restoration Law
 - **Chapter navigator** grouped into the guide's eight parts
+- **Completion ticks** — a chapter (and its part card) ticks off with a ✓ once you have attempted every question in the active difficulty filter
+- **AI-generated questions** — from any chapter's ✦ button, ask the AI to write extra easy/medium/hard questions grounded in that chapter's source text; they are validated, saved to this device, marked with an **AI** badge and clearable from Settings
 - **Quick 5** short sessions
 - **Exam simulation** — 30 questions with a 40-minute countdown
 - **Weak areas** and **mistake review**, driven by real recorded answers
