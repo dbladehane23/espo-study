@@ -43,7 +43,9 @@
 .chapter-button.done:hover{border-color:var(--green);background:#eaf8f3}
 .chapter-button.done .chapter-number{background:var(--green);color:#fff}
 .chapter-button.done>strong{color:var(--green);font-size:15px}
-.part-done{float:right;background:var(--mint);color:var(--green);border-radius:12px;padding:2px 9px;font:700 10px 'DM Sans';margin-top:-2px}
+.part-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:13px}
+.part-head .eyebrow{display:block;color:var(--blue);font-size:10px}
+.part-done{background:var(--mint);color:var(--green);border-radius:12px;padding:2px 9px;font:700 10px 'DM Sans';flex-shrink:0;white-space:nowrap}
 .ai-gen{border:1px solid var(--line);background:#fff;color:var(--blue);border-radius:9px;padding:0 13px;font-size:15px;cursor:pointer;flex-shrink:0;-webkit-tap-highlight-color:transparent}
 .ai-gen:hover{border-color:#b9c9f5;background:var(--lav)}
 .ai-badge{display:inline-block;background:var(--lav);color:#6b5ce7;border-radius:6px;padding:3px 8px;font:700 10px 'DM Sans';letter-spacing:1px;vertical-align:middle;margin-left:8px}

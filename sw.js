@@ -1,4 +1,4 @@
-const CACHE = 'espo-study-v15';
+const CACHE = 'espo-study-v16';
 const ASSETS = ['./', './index.html', './styles.css', './app.js', './data.js', './sources.js', './manifest.json'];
 
 self.addEventListener('install', event => {
